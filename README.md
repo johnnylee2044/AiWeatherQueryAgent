@@ -1,8 +1,8 @@
-Weather Query Agent
+## Weather Query Agent
 
 A sophisticated Spring Boot-based backend service that leverages LangChain4j and Google's Gemini AI to provide intelligent weather query responses through natural language processing. Features both standard and streaming API endpoints.
 
-🚀 Features
+## 🚀 Features
 AI-Powered Weather Queries: Utilizes Google's Gemini large language model to understand and process natural language weather requests
 
 Dual Response Modes: Support for both standard string responses and streaming Flux responses
@@ -18,7 +18,7 @@ Reactive Streaming: Supports Server-Sent Events (SSE) for real-time response str
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Backend Framework: Spring Boot 3.x (WebFlux for streaming support)
 
 AI Integration: LangChain4j
@@ -35,7 +35,7 @@ Reactive Programming: Project Reactor (Flux)
 
 
 
-📋 Prerequisites
+## 📋 Prerequisites
 Java 17 or higher
 
 Maven 3.6+ or Gradle 7+
@@ -48,7 +48,7 @@ Spring Boot 3.x
 
 
 
-⚙️ Configuration
+## ⚙️ Configuration
 1.Clone the repository:
 
 git clone <your-repository-url>
