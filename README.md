@@ -51,23 +51,26 @@ Spring Boot 3.x
 ## ⚙️ Configuration
 1.Clone the repository:
 
-git clone <your-repository-url>
-cd weather-query-agent
+git clone https://github.com/johnnylee2044/AiWeatherQueryAgent.git
 
 2.Set up Gemini API credentials:
 Add your Google Gemini API key to application.properties:
 
 gemini.api.key=your_gemini_api_key_here
-gemini.model.name=gemini_model name
+gemini.model.name=gemini_model_name
 
 (You can get your API key from ai studio, and every account should have free tier for daily limited usage)
 
 
-
+<br>
 
 /chat: Simple string response for basic integrations
 
 /chatStream: Real-time streaming for better user experience
+
+## Tools
+Tool annotation and P annotation are not added, no DB connection at this point, just simple application of Gemini for practice.
+
 
 
 
